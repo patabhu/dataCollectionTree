@@ -2,8 +2,8 @@ data collection tree apis.
 ----------------------------------------------------
 To start the server manually follow the steps below.
 1. cd dataCollectionTree in go path.
-2. source .env for environmental variables for http host port and db configs.
-`source .env`
+2. source vars.env for environmental variables for http host port and db configs.
+`source vars.env`
 3. in dataCollectionTree run main.go file.
 `go run main.go`
 4. check-out endpoints in controller in dataCollectionTree.go
