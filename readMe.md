@@ -11,8 +11,8 @@ To start the server manually follow the steps below.
 Running 2 different Docker containers follow below instructions:-
 
 For Go server container
-1. Run cmd "sudo docker build -t dataCollectionTree ." from in your dataCollectionTree dir.
+1. Run cmd "sudo docker build -t datacollectiontree ." from in your dataCollectionTree dir.
 
-2. Run your Go server image in container with cmd "sudo docker run -it --rm -e HTTP_HOST=0.0.0.0:10000 -p 10000:10000 --network=bridge --name dataCollectionTree -d dataCollectionTree".
+2. Run your Go server image in container with cmd "sudo docker run -it --rm -e HTTP_HOST=0.0.0.0:10000 -p 10000:10000 --network=bridge --name dataCollectionTree -d datacollectiontree".
 
 3. Go server images will be running in container name as dataCollectionTree.
